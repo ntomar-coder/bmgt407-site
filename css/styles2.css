@@ -1,0 +1,259 @@
+.about-page,
+.about-page * {
+  box-sizing: border-box;
+}
+.about-page {
+  height: 1104px;
+  position: relative;
+}/* About page styles – colors taken from the Figma design */
+:root {
+  --teal: #00c4cc;
+  --maroon: #4a0707;
+  --blush: #ffd6da;
+}
+ 
+.about-body {
+  background-color: var(--teal);
+  font-family: "Montserrat", Arial, sans-serif;
+  min-height: 100vh;
+}
+ 
+.navbar {
+  font-family: "Montserrat", Arial, sans-serif;
+}
+ 
+.about-page {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+ 
+.about-title {
+  color: var(--maroon);
+  font-weight: 700;
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  max-width: 20ch;
+  margin-bottom: 1.5rem;
+}
+ 
+.about-intro {
+  color: var(--maroon);
+  font-weight: 500;
+  font-size: clamp(1.05rem, 1.6vw, 1.25rem);
+  line-height: 1.7;
+  max-width: 62ch;
+  margin-bottom: 3rem;
+}
+ 
+.detail-card {
+  background-color: var(--maroon);
+  color: var(--blush);
+  border-radius: 10px;
+  padding: 1.75rem;
+  height: 100%;
+}
+ 
+.detail-label {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+ 
+.detail-value,
+.detail-list {
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin: 0;
+}
+ 
+.detail-list {
+  list-style: none;
+  padding: 0;
+}
+ 
+.detail-list li + li {
+  margin-top: 0.35rem;
+}
+ 
+@media (max-width: 768px) {
+  .about-page {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+.group-1 {
+  width: 1568px;
+  height: 1104px;
+  position: static;
+}
+.frame-6 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1568px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-5 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-1 {
+  background: var(--accents-teal, #00c3d0);
+  padding: 42px 449px 139px 883px;
+  display: flex;
+  flex-direction: column;
+  gap: 416px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.homepage-about-contact {
+  color: #ffffff;
+  text-align: right;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 391px;
+  height: 29px;
+  position: relative;
+}
+.bmgt-407-information-systems-projects {
+  color: var(--grays-black, #000000);
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: calc(50% - 255px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bmgt-407-is-the-capstone-course-for-information-systems-is-majors-where-students-apply-their-knowledge-to-develop-real-world-is-solutions-for-business-clients-through-a-complete-is-development-process-students-design-and-implement-functional-prototypes-that-solve-practical-business-challenges-preparing-them-for-careers-in-technology-and-consulting {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 13px;
+  top: 318px;
+  width: 1440px;
+  height: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-1 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  width: 180px;
+  height: 57px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 720px;
+  overflow: visible;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: 11px;
+  top: 584px;
+}
+.professor-paul-t-shapiro-teaching-assistants-bharath-sreekumar-caifu-lin-sumanth-devara-semester-details-spring-2027 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 1145px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
